@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// SPDX-License-Identifier: MIT
 /** Command-line interface for pepkio-tm-annealing-temperature-calculator. */
 
 import { Command } from "commander";

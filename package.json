@@ -1,10 +1,51 @@
 {
   "name": "pepkio-tm-annealing-temperature-calculator",
   "version": "0.1.0",
-  "description": "TypeScript client for the Pepkio Tm / Annealing Temperature Calculator REST API.",
+  "description": "JavaScript and TypeScript client for batch and single-primer Tm/Ta calculations via the Pepkio REST API, with CLI.",
   "license": "MIT",
   "author": "Pepkio Team",
+  "homepage": "https://www.pepkio.com/tools/tm-annealing-temperature-calculator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pepkio/pepkio-tm-annealing-temperature-calculator-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pepkio/pepkio-tm-annealing-temperature-calculator-js/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "type": "module",
+  "keywords": [
+    "primer-tm",
+    "melting-temperature",
+    "annealing-temperature",
+    "pcr",
+    "pcr-primer",
+    "santa-lucia",
+    "nearest-neighbor",
+    "delta-tm",
+    "q5",
+    "phusion",
+    "taq",
+    "kapa-hifi",
+    "dmso",
+    "betaine",
+    "multiplex-pcr",
+    "primer-qc",
+    "hairpin",
+    "dimer",
+    "batch-primer",
+    "pepkio",
+    "laboratory-calculator",
+    "bioinformatics",
+    "life-sciences",
+    "typescript",
+    "node",
+    "rest-api",
+    "scientific-computing"
+  ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {

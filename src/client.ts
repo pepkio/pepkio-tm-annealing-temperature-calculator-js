@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 /** HTTP client for the Pepkio tm-annealing-temperature-calculator tool. */
 
 import { PepkioAPIError } from "./errors.js";
